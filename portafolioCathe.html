@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Catherine Castro Escudero, estudiante de Desarrollo Web con experiencia en supervisión de tienda, atención al cliente y apoyo administrativo.">
+    <meta name="theme-color" content="#0c0e1b">
+    <title>Catherine Castro Escudero | Portafolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Instrument+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="miPortafolio.css">
+    <script src="miPortafolio.js" defer></script>
+</head>
+<body>
+    <a class="saltar" href="#contenido">Saltar al contenido</a>
+    <div class="progreso" id="progreso" aria-hidden="true"></div>
+
+    <header>
+        <nav class="nav" aria-label="Navegación principal">
+            <a href="#inicio" class="nav__marca" aria-label="Ir al inicio">CC</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main id="contenido">
+
+        <section id="inicio" class="hero">
+            <div class="hero__texto">
+                <h1 class="nombre entra" id="nombre" style="--i:0" aria-label="Catherine Castro Escudero">
+                    <span class="linea">Catherine</span>
+                    <span class="linea">Castro Escudero</span>
+                </h1>
+
+                <p class="rol entra" style="--i:2">
+                    <span class="solo-lectores">Estudiante de Desarrollo Web</span>
+                    <span class="rol__typed" id="typed" aria-hidden="true">Estudiante de Desarrollo Web</span>
+                </p>
+
+                <p class="lema entra" style="--i:3">
+                    Diseño y creo sitios web modernos, funcionales y fáciles de usar. Vengo del trabajo con personas y equipos, y ahora lo llevo al código.
+                </p>
+
+                <div class="acciones entra" style="--i:4">
+                    <a href="#contacto" class="btn btn--primario">Escríbeme</a>
+                    <a href="#experiencia" class="btn btn--secundario">Ver experiencia</a>
+                </div>
+            </div>
+
+            <div class="retrato entra" id="retrato" style="--i:3">
+                <div class="retrato__marco">
+                    <img src="WhatsApp Image 2026-10-21 at 12.21.23.jpeg"
+                         alt="Foto de perfil profesional de Catherine Castro Escudero"
+                         width="340" height="425" id="foto">
+                    <span class="retrato__iniciales" id="iniciales" aria-hidden="true" hidden>CC</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="seccion">
+            <div class="split">
+                <h2>Sobre mí</h2>
+                <div class="texto">
+                    <p class="texto__lead">
+                        Soy responsable, dinámica y con ganas de superarme. Aprendo rápido y me importa cumplir con puntualidad, honestidad y responsabilidad en todo lo que hago.
+                    </p>
+                    <p>
+                        Estoy dispuesta a cumplir con las funciones, obligaciones y normas de cada lugar de trabajo, y quiero aportar al cumplimiento de las metas de su organización.
+                    </p>
+                    <p>
+                        Soy estudiante de Desarrollo Web y me interesa el diseño y la creación de sitios modernos, funcionales y fáciles de usar. Estoy aprendiendo HTML, CSS y JavaScript, y fortaleciendo mi capacidad para resolver problemas, aprender nuevas tecnologías y trabajar en equipo. Soy organizada, comprometida y quiero seguir creciendo en el área de la tecnología.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="seccion">
+            <div class="split">
+                <h2>Habilidades</h2>
+                <div>
+                    <h3 class="subtitulo">Lo que estoy aprendiendo</h3>
+                    <div class="tec">
+                        <article>
+                            <h4>HTML</h4>
+                            <p>La estructura y el contenido de cada página.</p>
+                        </article>
+                        <article>
+                            <h4>CSS</h4>
+                            <p>Diseño, color y adaptación a cualquier pantalla.</p>
+                        </article>
+                        <article>
+                            <h4>JavaScript</h4>
+                            <p>Interacción: menús, formularios y animaciones.</p>
+                        </article>
+                    </div>
+
+                    <h3 class="subtitulo">Personales</h3>
+                    <ul class="chips">
+                        <li>Responsable</li>
+                        <li>Honesta</li>
+                        <li>Puntual</li>
+                        <li>Compromiso</li>
+                        <li>Liderazgo</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Organización</li>
+                        <li>Atención al cliente</li>
+                    </ul>
+
+                    <h3 class="subtitulo">Idiomas</h3>
+                    <ul class="chips">
+                        <li>Español (nativo)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia" class="seccion">
+            <div class="split">
+                <h2>Experiencia</h2>
+                <ol class="tiempo">
+                    <li class="abierto">
+                        <div class="tarjeta">
+                            <button type="button" class="cab" aria-expanded="true" aria-controls="det1">
+                                <span class="cab__anio">2026 – Presente</span>
+                                <span class="cab__empresa">Bootcamp de Tecnología</span>
+                                <span class="cab__cargo">Estudiante de Desarrollo Web</span>
+                                <span class="cab__icono" aria-hidden="true"></span>
+                            </button>
+                            <div class="cuerpo" id="det1">
+                                <div class="cuerpo__in">
+                                    <p>Adquiriendo conocimientos en HTML, CSS y JavaScript, y fortaleciendo habilidades y técnicas para el desarrollo de plataformas web.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="tarjeta">
+                            <button type="button" class="cab" aria-expanded="false" aria-controls="det2">
+                                <span class="cab__anio">2026</span>
+                                <span class="cab__empresa">Tiendas Ísimo</span>
+                                <span class="cab__cargo">Supervisora de tienda</span>
+                                <span class="cab__icono" aria-hidden="true"></span>
+                            </button>
+                            <div class="cuerpo" id="det2">
+                                <div class="cuerpo__in">
+                                    <p>Supervisión de la operación diaria de la tienda, garantizando el cumplimiento de los objetivos de ventas y un excelente servicio al cliente.</p>
+                                    <p>Coordinación y liderazgo del equipo, organización de turnos, control de inventarios, abastecimiento y exhibición de productos, apertura y cierre de caja, cumplimiento de los procedimientos de la empresa y atención oportuna de las necesidades de los clientes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="tarjeta">
+                            <button type="button" class="cab" aria-expanded="false" aria-controls="det3">
+                                <span class="cab__anio">2023 – 2025</span>
+                                <span class="cab__empresa">Cencosud</span>
+                                <span class="cab__cargo">Auxiliar polivalente</span>
+                                <span class="cab__icono" aria-hidden="true"></span>
+                            </button>
+                            <div class="cuerpo" id="det3">
+                                <div class="cuerpo__in">
+                                    <p>Apoyo en actividades asistenciales, administrativas y de atención al usuario en instituciones de salud.</p>
+                                    <p>Orientación a pacientes, agendamiento de citas, organización y actualización de historias clínicas, manejo de documentos y cumplimiento de los protocolos de bioseguridad.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ol>
+            </div>
+        </section>
+
+        <section id="contacto" class="seccion">
+            <div class="split">
+                <div>
+                    <h2>Contacto</h2>
+                    <p class="contacto__intro">¿Tienes una pregunta, una propuesta o una sugerencia? Escríbeme.</p>
+                    <ul class="enlaces">
+                        <li><a href="mailto:cathecastro14@gmail.com">cathecastro14@gmail.com</a></li>
+                        <li><a href="https://www.instagram.com/kttksttro?igsh=NDJoc3o1aXQ5dW0w" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                    </ul>
+                </div>
+
+                <form id="formContacto" action="#" method="POST" novalidate>
+                    <div class="campo">
+                        <label for="nombreForm">Nombre completo</label>
+                        <input type="text" id="nombreForm" name="nombre" placeholder="Ej. Juan Pérez" autocomplete="name" required minlength="3">
+                        <small class="error" aria-live="polite"></small>
+                    </div>
+
+                    <div class="campo">
+                        <label for="correo">Correo electrónico</label>
+                        <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" autocomplete="email" required>
+                        <small class="error" aria-live="polite"></small>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensaje">Mensaje o sugerencia</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe los detalles aquí..." required minlength="10" maxlength="500"></textarea>
+                        <small class="contador" id="contador">0 / 500</small>
+                        <small class="error" aria-live="polite"></small>
+                    </div>
+
+                    <button type="submit" class="btn btn--primario">Enviar mensaje</button>
+                    <p id="estadoForm" class="estado" role="status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <p>© <span id="anio">2026</span> Catherine Castro Escudero. Todos los derechos reservados.</p>
+    </footer>
+
+    <button type="button" id="subir" class="subir" aria-label="Volver arriba" hidden>↑</button>
+</body>
+</html>
